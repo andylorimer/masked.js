@@ -11,5 +11,5 @@ Usage
 --------------
 Simply include the `masked.min.js` file and wrap a selection of elements in the `mask` class as seen below.
 ```html
-<div class="mask"><div class="element"></div></div>
+<div class="mask"><div class="your-element"></div></div>
 ```
