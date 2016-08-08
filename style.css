@@ -88,3 +88,9 @@ body {
 .main-btn:hover:after {
   bottom: 0;
 }
+
+.demo-link {
+  display: inline-block;
+  padding: 5px 5px;
+  background: #ebebff;
+}
