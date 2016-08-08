@@ -3,8 +3,8 @@ A free and simple set of transitions using a mask effect.
 
 Install
 --------------
-    ```html
-    <html>
-    <head></head>
-    </html>
-    ```
+```html
+<html>
+<head></head>
+</html>
+```
