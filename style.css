@@ -94,6 +94,7 @@ body {
   padding: 5px 5px;
   background: #ebebff;
   text-decoration: none;
+  color: #000;
 }
 
 .demo-link:hover {
