@@ -1,5 +1,6 @@
 # masked.js
 A free and simple set of transitions using a mask effect.
 
-Will become a sub heading
+How to use
 --------------
+  <script src="js/masked.min.js"></script>
