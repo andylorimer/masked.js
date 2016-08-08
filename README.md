@@ -4,6 +4,7 @@ A free and simple set of transitions using a mask effect.
 Install
 --------------
     ```html
-    <head>
-    </head>
+    <html>
+    <head></head>
+    </html>
     ```
