@@ -11,7 +11,7 @@ The easiest way to initialize Masked.js is to include the minified js file as sh
 <script src="src/masked.min.js"></script>
 ```
 
-**The easiest way to initialize Masked.js is to include the minified js file as shown below.**
+**Remember to include the latest version of jQuery along with the `masked.js` file.**
 
 Usage
 --------------
