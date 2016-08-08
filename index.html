@@ -47,6 +47,7 @@
           $('.title').parent().attr('data-mask-transition',getDir);
           maskOut();
         
+        setTimeout(function() {
             var maskTransit = $('.title').parent().data('mask-transition');
             switch(maskTransit) {
               case 'fromLeft':
@@ -87,7 +88,6 @@
                 break;
             }
               
-            setTimeout(function() {
               $('.title').css({
                 '-webkit-transition': '.5s ease',
                 '-moz-transition': '.5s ease',
