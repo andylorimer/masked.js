@@ -43,11 +43,11 @@
         }
         
         $(document).on('click', '.demo-link', function(e) {
-          var getDir = $(this).text();
-          $('.title').parent().attr('data-mask-transition',getDir);
           maskOut();
         
         setTimeout(function() {
+          var getDir = $(this).text();
+          $('.title').parent().attr('data-mask-transition',getDir);
             var maskTransit = $('.title').parent().data('mask-transition');
             switch(maskTransit) {
               case 'fromLeft':
