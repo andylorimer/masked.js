@@ -51,7 +51,7 @@
             var maskTransit = $('.title').parent().data('mask-transition');
             switch(maskTransit) {
               case 'fromLeft':
-                $('.title').css({
+                $(this).child().css({
                   '-webkit-transform': 'translate(-150%, 0)',
                   '-moz-transform': 'translate(-150%, 0)',
                   '-o-transform': 'translate(-150%, 0)',
@@ -60,7 +60,7 @@
                 });
                 break;
               case 'fromRight':
-                $('.title').css({
+                $(this).child().css({
                   '-webkit-transform': 'translate(150%, 0)',
                   '-moz-transform': 'translate(150%, 0)',
                   '-o-transform': 'translate(150%, 0)',
