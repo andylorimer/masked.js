@@ -35,6 +35,8 @@ Full Example
 
 Other Examples
 --------------
+**It works well with sentences, just remember to style your child elements however you want.**
+
 ```html
 <div class="mask" data-mask-transition="fromLeft"><span class="your-element">This</span></div>
 <div class="mask" data-mask-transition="fromTop"><span class="your-element">is</span></div>
@@ -42,6 +44,4 @@ Other Examples
 <div class="mask" data-mask-transition="fromBottom"><span class="your-element">mask</span></div>
 ```
 
-```html
-<div class="mask" data-mask-transition="fromLeft"><span class="your-element"></span></div>
-```
+**This plugin uses CSS transitions on the child elements inside the `mask` class. To avoid interfering with the `masked.js` file, try not to double up on transitions in your CSS. You can still create some funky stuff, just let `masked.js` set up the transition value.**
