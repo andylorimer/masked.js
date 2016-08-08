@@ -47,7 +47,6 @@
           var getDir = $(this).text();
           $('.title').parent().attr('data-mask-transition',getDir);
         
-        setTimeout(function() {
             var maskTransit = $('.title').parent().attr('data-mask-transition');
             
             switch(maskTransit) {
@@ -87,7 +86,6 @@
                   'transform': 'translate(0, 150%)'
                 });
             }
-          }, 500);
               
             setTimeout(function() {  
               $('.title').css({
