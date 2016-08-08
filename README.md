@@ -16,7 +16,7 @@ Usage
   ```
   
   2. Then include the transition of your choice from the list below:
-      fromTop
+      * fromTop
       fromRight
       fromBottom
       fromLeft
