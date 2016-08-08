@@ -28,7 +28,7 @@
     
     <script type="text/javascript">
       $(function() {
-        $(document).on('click', 'demo-link', function(e) {
+        $(document).on('click', '.demo-link', function(e) {
           var getDir = $(this).text();
           $('.title').parent().attr('data-mask-transition',getDir);
         });
