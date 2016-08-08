@@ -31,6 +31,7 @@
         $(document).on('click', '.demo-link', function(e) {
           var getDir = $(this).text();
           $('.title').parent().attr('data-mask-transition',getDir);
+          maskIt();
         });
       });
     </script>
