@@ -64,6 +64,7 @@ body {
   background: black;
   color: #fff;
   text-decoration: none;
+  overflow: hidden;
 }
 
 .main-btn:after {
