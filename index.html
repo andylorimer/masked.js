@@ -50,7 +50,7 @@
             var maskTransition = $('.title').parent().data('mask-transition');
             switch(maskTransition) {
               case 'fromLeft':
-                $(this).children().css({
+                $('.title').css({
                   '-webkit-transform': 'translate(-150%, 0)',
                   '-moz-transform': 'translate(-150%, 0)',
                   '-o-transform': 'translate(-150%, 0)',
@@ -59,7 +59,7 @@
                 });
                 break;
               case 'fromRight':
-                $(this).children().css({
+                $('.title').css({
                   '-webkit-transform': 'translate(150%, 0)',
                   '-moz-transform': 'translate(150%, 0)',
                   '-o-transform': 'translate(150%, 0)',
@@ -68,7 +68,7 @@
                 });
                 break;
               case 'fromTop':
-                $(this).children().css({
+                $('.title').css({
                   '-webkit-transform': 'translate(0, -150%)',
                   '-moz-transform': 'translate(0, -150%)',
                   '-o-transform': 'translate(0, -150%)',
@@ -77,7 +77,7 @@
                 });
                 break;
               case 'fromBottom':
-                $(this).children().css({
+                $('.title').css({
                   '-webkit-transform': 'translate(0, 150%)',
                   '-moz-transform': 'translate(0, 150%)',
                   '-o-transform': 'translate(0, 150%)',
