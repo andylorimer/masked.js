@@ -1,4 +1,4 @@
-# masked.js
+# Masked.js
 A free and simple set of transitions using a mask effect.
 
 Created using jQuery and CSS transitions.
