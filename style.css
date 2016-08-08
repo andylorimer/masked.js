@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
 
 body {
   margin: 0;
-  font-family: "Quicksand",sans-serif;
+  font-family: "Questrial",sans-serif;
   font-size: 14px;
   /*overflow-y: hidden;*/
 }
