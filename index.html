@@ -29,7 +29,7 @@
     <script type="text/javascript">
       $(document).ready(function() {
         
-        $('.demo-link').on('click', function(e) {
+        $(document).on('click', '.demo-link', function(e) {
           function maskOut() {
           $('.title').css({
             '-webkit-transform':'translate(150%, 150%)',
