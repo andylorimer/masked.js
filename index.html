@@ -28,10 +28,24 @@
     
     <script type="text/javascript">
       $(function() {
+        function maskOut() {
+          $('.title').css({
+            '-webkit-transform':'translate(150%, 150%)',
+            '-moz-transform':'translate(150%, 150%)',
+            '-o-transform':'translate(150%, 150%)',
+            '-ms-transform':'translate(150%, 150%)',
+            'transform':'translate(150%, 150%)',
+            '-webkit-transition': '0',
+            '-moz-transition': '0',
+            '-o-transition': '0',
+            'transition': '0'
+          });
+        }
+        
         $(document).on('click', '.demo-link', function(e) {
           var getDir = $(this).text();
           $('.title').parent().attr('data-mask-transition',getDir);
-          maskIt();
+          maskOut();
         });
       });
     </script>
