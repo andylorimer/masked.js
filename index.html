@@ -47,8 +47,7 @@
           $('.title').parent().attr('data-mask-transition',getDir);
           maskOut();
         
-          $('.title').parent().each(function() {
-            var maskTransition = $(this).data('mask-transition');
+            var maskTransition = $('.title').parent().data('mask-transition');
             switch(maskTransition) {
               case 'fromLeft':
                 $(this).children().css({
@@ -87,22 +86,17 @@
                 });
                 break;
             }
-              });
-            
-            $.each($('.title'), function(h) {
               
-                $(this).css({
-                  '-webkit-transition': '.5s ease',
-                  '-moz-transition': '.5s ease',
-                  '-o-transition': '.5s ease',
-                  'transition': '.5s ease',
-                  '-webkit-transform': 'translate(0,0)',
-                  '-moz-transform': 'translate(0,0)',
-                  '-o-transform': 'translate(0,0)',
-                  '-ms-transform': 'translate(0,0)',
-                  'transform': 'translate(0,0)'
-                });
-              
+            $('.title').css({
+              '-webkit-transition': '.5s ease',
+              '-moz-transition': '.5s ease',
+              '-o-transition': '.5s ease',
+              'transition': '.5s ease',
+              '-webkit-transform': 'translate(0,0)',
+              '-moz-transform': 'translate(0,0)',
+              '-o-transform': 'translate(0,0)',
+              '-ms-transform': 'translate(0,0)',
+              'transform': 'translate(0,0)'
             });
         });
       });
