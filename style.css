@@ -89,8 +89,13 @@ body {
   bottom: 0;
 }
 
-.demo-link {
+.demo-link, .demo-link:active, .demo-link:visited {
   display: inline-block;
   padding: 5px 5px;
   background: #ebebff;
+  text-decoration: none;
+}
+
+.demo-link:hover {
+  background: #d9d9f9;
 }
