@@ -28,7 +28,9 @@
     
     <script type="text/javascript">
       $(document).ready(function() {
-        function maskOut() {
+        
+        $('.demo-link').on('click', function(e) {
+          function maskOut() {
           $('.title').css({
             '-webkit-transform':'translate(150%, 150%)',
             '-moz-transform':'translate(150%, 150%)',
@@ -41,8 +43,6 @@
             'transition': 'none'
           });
         }
-        
-        $('.demo-link').on('click', function(e) {
           maskOut();
           var getDir = $(this).text();
           $('.title').parent().attr('data-mask-transition',getDir);
