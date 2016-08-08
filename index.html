@@ -25,5 +25,14 @@
         </div>
       </div>
     </div>
+    
+    <script type="text/javascript">
+      $(function() {
+        $(document).on('click', 'demo-link', function(e) {
+          var getDir = $(this).text();
+          $('.title').attr('data-mask-transition',getDir);
+        });
+      });
+    </script>
   </body>
 </html>
