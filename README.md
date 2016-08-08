@@ -9,7 +9,7 @@ Install
 
 Usage
 --------------
-Simply include the `masked.min.js` file and wrap a selection of elements in the `mask` class as seen below.
+1. Simply include the `masked.min.js` file and wrap a selection of elements in the `mask` class as seen below.
 ```html
 <div class="mask"><div class="your-element"></div></div>
 ```
