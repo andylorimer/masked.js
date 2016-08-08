@@ -1,6 +1,8 @@
 # masked.js
 A free and simple set of transitions using a mask effect.
 
+Created using jQuery and CSS transitions.
+
 Install
 --------------
 The easiest way to initialize Masked.js is to include the minified js file as shown below.
@@ -8,6 +10,8 @@ The easiest way to initialize Masked.js is to include the minified js file as sh
 ```html
 <script src="src/masked.min.js"></script>
 ```
+
+**The easiest way to initialize Masked.js is to include the minified js file as shown below.**
 
 Usage
 --------------
