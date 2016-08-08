@@ -32,3 +32,16 @@ Full Example
 ```html
 <div class="mask" data-mask-transition="fromBottom"><div class="your-element"></div></div>
 ```
+
+Other Examples
+--------------
+```html
+<div class="mask" data-mask-transition="fromLeft"><span class="your-element">This</span></div>
+<div class="mask" data-mask-transition="fromTop"><span class="your-element">is</span></div>
+<div class="mask" data-mask-transition="fromRight"><span class="your-element">a</span></div>
+<div class="mask" data-mask-transition="fromBottom"><span class="your-element">mask</span></div>
+```
+
+```html
+<div class="mask" data-mask-transition="fromLeft"><span class="your-element"></span></div>
+```
