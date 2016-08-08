@@ -5,4 +5,5 @@ Install
 --------------
     ```html
     <head>
+    </head>
     ```
