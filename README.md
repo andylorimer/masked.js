@@ -3,7 +3,7 @@ A free and simple set of transitions using a mask effect.
 
 Created using jQuery and CSS transitions.
 
-Check out this <a href="https://andylorimer.github.io/masked.js/">demo</a>.
+Check out this <a href="https://andylorimer.github.io/masked.js/" target="_blank">demo</a>.
 
 Install
 --------------
