@@ -34,6 +34,7 @@ h1 {
   text-transform: uppercase;
   font-weight: normal;
   margin: 0;
+  line-height: 100px;
 }
 
 h3 {
@@ -42,6 +43,7 @@ h3 {
   text-transform: uppercase;
   font-weight: normal;
   margin: 0;
+    line-height: 100px;
 }
 
 .outer-p {
