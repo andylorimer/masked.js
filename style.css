@@ -28,14 +28,16 @@ body {
   text-align: center;
 }
 
-.title {
-  position: relative;
-  display: inline-block;
-  padding: 20px 30px;
-  background: #5952dd;
-  color: #fff;
-  font-weight: 200;
+h1 {
+  color: #7E878E;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #7E878E;
   font-size: 40px;
+  text-transform: uppercase;
 }
 
 .outer-p {
