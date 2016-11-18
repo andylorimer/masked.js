@@ -32,12 +32,14 @@ h1 {
   color: #7E878E;
   font-size: 80px;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 h3 {
   color: #7E878E;
   font-size: 40px;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 .outer-p {
