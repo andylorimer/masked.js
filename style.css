@@ -63,6 +63,7 @@ h3 {
   height: 120px;
   left: 0;
   bottom: 0;
+  display: flex;
 }
 
 .main-btn {
@@ -74,6 +75,7 @@ h3 {
   color: #fff;
   text-decoration: none;
   overflow: hidden;
+  flex-grow: 1;
 }
 
 .main-btn span {
