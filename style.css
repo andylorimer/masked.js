@@ -58,17 +58,18 @@ h3 {
 }
 
 .buttons {
-  position: relative;
+  position: absolute;
   width: 100%;
-  height: auto;
-  text-align: center;
-  padding: 20px 0;
+  height: 120px;
+  left: 0;
+  bottom: 0;
 }
 
 .main-btn {
   position: relative;
   display: inline-block;
-  padding: 15px 20px;
+  width: 50%;
+  height: 120px;
   background: black;
   color: #fff;
   text-decoration: none;
